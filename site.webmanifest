@@ -1,0 +1,12 @@
+{
+  "name": "BonjourSerge",
+  "short_name": "Serge",
+  "description": "Collaborateurs IA privés pour les entreprises du bâtiment en Suisse romande.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f2efe5",
+  "theme_color": "#10150f",
+  "icons": [
+    {"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">BonjourSerge, le bureau avance avec vos chantiers</title>
+  <desc id="desc">Carte de partage BonjourSerge pour les PME du bâtiment en Suisse romande.</desc>
+  <rect width="1200" height="630" fill="#10150f"/>
+  <g stroke="#fffdf8" stroke-opacity="0.1">
+    <path d="M0 90h1200M0 570h1200M78 0v630"/>
+    <path d="M820 90v480M940 90v480M1060 90v480" stroke-dasharray="3 9"/>
+  </g>
+  <circle cx="1040" cy="500" r="255" fill="none" stroke="#c8ff46" stroke-opacity="0.16"/>
+  <circle cx="1040" cy="500" r="170" fill="none" stroke="#c8ff46" stroke-opacity="0.1"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="112" y="38" width="58" height="36" fill="#c8ff46"/>
+    <text x="141" y="61" fill="#10150f" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">S/01</text>
+    <text x="186" y="64" fill="#fffdf8" font-size="24" font-weight="700" letter-spacing="-1">Bonjour<tspan fill="#aeb8aa">Serge</tspan></text>
+    <text x="112" y="142" fill="#aeb8aa" font-family="monospace" font-size="13" letter-spacing="2">GENÈVE · VAUD · PME DU BÂTIMENT</text>
+    <text x="106" y="270" fill="#fffdf8" font-size="94" font-weight="800" letter-spacing="-6">Le bureau avance</text>
+    <text x="106" y="382" fill="#fffdf8" font-size="94" font-weight="800" letter-spacing="-6">avec vos</text>
+    <text x="106" y="494" fill="#c8ff46" font-size="104" font-weight="800" letter-spacing="-7">chantiers.</text>
+    <text x="112" y="603" fill="#aeb8aa" font-family="monospace" font-size="13" letter-spacing="2">BONJOURSERGE.CH</text>
+    <text x="1088" y="603" fill="#aeb8aa" font-family="monospace" font-size="13" letter-spacing="2" text-anchor="end">COLLABORATEUR IA PRIVÉ</text>
+  </g>
+</svg>
