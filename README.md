@@ -6,6 +6,8 @@ opérations des PME du bâtiment et de l'ingénierie à Genève et dans le canto
 Le dépôt contient uniquement la V2 active. L'adresse GitHub Pages sert à valider le rendu avant le
 lancement sur `bonjourserge.ch`.
 
+Démo publique : <https://sofien1225.github.io/bonjourserge-site/>
+
 ## Pages
 
 - `index.html` : accueil V2 actif dans le dossier ;
@@ -30,13 +32,14 @@ visiteur. La dictée vocale peut utiliser le service fourni par son navigateur.
 - `site-v2.js` : navigation, onglets, diagnostic local et formulaire ;
 - `favicon.svg`, `site.webmanifest`, `robots.txt` et les sitemaps : identité et référencement.
 - `og-bonjourserge.png` : carte de partage 1 200 × 630 px ;
+- `fonts/` : polices Archivo et IBM Plex Mono auto-hébergées avec leurs licences OFL.
 
 ## Avant publication
 
 1. Acheter et connecter `bonjourserge.ch` et le sous-domaine Construction.
 2. Remplacer l'email provisoire et créer un Calendly au nom de BonjourSerge.
 3. Compléter les mentions avec l'extrait officiel de l'entité qui facture et l'hébergeur retenu.
-4. Fixer les durées de conservation et remplacer ou documenter les polices externes.
+4. Fixer les durées de conservation et les informations définitives de confidentialité.
 5. Produire les trois démonstrations Hermes réelles, le portrait fondateur et la première preuve client.
 6. Brancher une mesure respectueuse du consentement, puis vérifier les rendez-vous de test.
 
@@ -49,6 +52,8 @@ Le prix Suisse reste volontairement absent jusqu'au chiffrage de la livraison.
 - trente-trois contrôles de rendu à 390, 768 et 1 440 px, sans débordement ni erreur JavaScript ;
 - audit Axe sur les onze pages pour WCAG 2 A, 2 AA et 2.1 AA, aucune violation détectée ;
 - menu mobile, retour du focus, onglets de démonstration, dialogue, réponse locale et formulaire testés dans Chrome.
+- après auto-hébergement des polices, audit Lighthouse mobile local : 100 en performance,
+  accessibilité, bonnes pratiques et SEO, avec un LCP mesuré à 1,7 s.
 
 La mesure des Core Web Vitals reste à faire sur le domaine déployé. Un score local ne représenterait
 ni le futur hébergeur, ni le réseau des visiteurs, ni le chargement réel des polices.

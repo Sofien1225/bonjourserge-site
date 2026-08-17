@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("fonts/archivo-latin-400-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/ibm-plex-mono-latin-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/ibm-plex-mono-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/ibm-plex-mono-latin-600.woff2") format("woff2");
+}
+
 :root {
   --ink: #10150f;
   --ink-soft: #1d271c;
@@ -177,6 +209,7 @@ p { text-wrap: pretty; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .text-link { display: inline-flex; gap: 9px; align-items: center; font-weight: 750; text-underline-offset: 5px; }
 .text-link::after { content: "→"; font-family: var(--font-mono); }
+.section-link { margin-top: 28px; }
 
 .home-hero { position: relative; min-height: calc(100svh - var(--header)); display: flex; align-items: stretch; overflow: hidden; color: var(--white); background: var(--ink); }
 .home-hero::after { content: ""; position: absolute; inset: auto -12vw -32vw auto; width: 58vw; aspect-ratio: 1; border: 1px solid rgba(200, 255, 70, .28); border-radius: 50%; box-shadow: 0 0 0 8vw rgba(200, 255, 70, .025), 0 0 0 16vw rgba(200, 255, 70, .018); pointer-events: none; }

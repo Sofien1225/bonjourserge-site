@@ -117,7 +117,7 @@ const diagnosticAnswers = {
 
 function initializeDiagnostic() {
   const template = `
-    <button class="diagnostic-launcher" type="button" data-open-diagnostic aria-label="Ouvrir le diagnostic Serge">
+    <button class="diagnostic-launcher" type="button" data-open-diagnostic aria-label="S/01 — Tester une mission">
       <span aria-hidden="true">S/01</span><strong>Tester une mission</strong>
     </button>
     <dialog class="serge-dialog" id="serge-dialog" aria-labelledby="dialog-title">
